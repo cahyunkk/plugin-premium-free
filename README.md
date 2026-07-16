@@ -1,29 +1,68 @@
-# Premium Minecraft Plugins - Lightweight & 1.21+ Optimized Edition
+<div align="center">
 
-Kumpulan plugin Minecraft premium/free yang telah dimodifikasi agar **lebih ringan**, **mendukung versi Minecraft 1.21+ (hingga versi terbaru)**, tanpa menghilangkan fitur bawaan sedikitpun.
+# 🌟 Premium Minecraft Plugins - 1.21+ Optimized Edition
 
-## 📦 Daftar Plugin yang Tersedia & Dioptimisasi
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21%2B-blue.svg)](https://minecraft.net)
+[![Author](https://img.shields.io/badge/Author-AULA%20WANG-orange.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Optimized%20%26%20Lightweight-success.svg)]()
 
-1. **Oraxen (`Oraxen-1.21+-Optimized.jar`)**
-   - **Versi**: 1.217.0 (Optimized)
-   - **Fitur**: Custom items, blocks, glyphs, HUD, mechanics.
-   - **Optimisasi**: Update `api-version` ke `"1.21"`, menghapus background telemetry bStats.
+Kumpulan plugin Minecraft premium terkemuka yang telah dioptimalkan secara profesional oleh **AULA WANG** agar **lebih ringan**, **mendukung versi Minecraft 1.21+**, serta bebas dari watermark forum pihak ketiga.
 
-2. **Advanced Enchantments (`AdvancedEnchantments-9.24.1-Optimized.jar`)**
-   - **Versi**: 9.24.1 (Optimized)
-   - **Fitur**: Custom enchantments, custom armor sets, souls, tinkerer.
-   - **Optimisasi**: Update `api-version` ke `"1.21"`, kompatibel penuh dengan Paper 1.21+.
-
-3. **ItemsAdder (`ItemsAdder-4.0.17-Optimized.jar`)**
-   - **Versi**: 4.0.17 (Optimized)
-   - **Fitur**: Custom items, blocks, custom entities, emojis, HUDs, resourcepack generator.
-   - **Optimisasi**: Update `api-version` ke `"1.21"`, menghapus background tracking/metrics.
+</div>
 
 ---
-## ✨ Keunggulan
-- **Dukungan 1.21+**: Berjalan mulus di Paper/Spigot/Folia versi terbaru tanpa warning deprecation API.
-- **Lebih Ringan (Lightweight)**: Telemetry dan background task yang tidak perlu dibersihkan untuk performa TPS server yang stabil.
-- **100% Fitur Utuh**: Tidak ada fitur, perintah, atau permission yang dikurangi.
+
+## 📂 Project Directory Structure
+
+```text
+├── release/          # Folder berisikan file .jar siap pakai (Production Ready)
+│   ├── Oraxen-1.21+-Optimized.jar
+│   ├── AdvancedEnchantments-9.24.1-Optimized.jar
+│   └── ItemsAdder-4.0.17-Optimized.jar
+├── src/              # Folder sumber dan referensi plugin original
+├── LICENSE           # Lisensi proyek (MIT)
+└── README.md         # Dokumentasi resmi
+```
 
 ---
-*Diupload otomatis melalui deployment key.*
+
+## 🚀 Available Plugins (`release/`)
+
+| Plugin Name | Version | Description & Optimizations | Download Link |
+| :--- | :--- | :--- | :--- |
+| **Oraxen** | `1.217.0` | Custom items, blocks, HUDs, glyphs, mechanics. | [`Download`](release/Oraxen-1.21+-Optimized.jar) |
+| **AdvancedEnchantments** | `9.24.1` | Custom enchantments, armor sets, souls, tinkerer. | [`Download`](release/AdvancedEnchantments-9.24.1-Optimized.jar) |
+| **ItemsAdder** | `4.0.17` | Custom items, blocks, custom entities, emojis, pack generator. | [`Download`](release/ItemsAdder-4.0.17-Optimized.jar) |
+
+---
+
+## ✨ Key Optimizations & Features
+
+1. **Full 1.21+ Support**:
+   - Diperbarui `api-version` ke `"1.21"` di setiap `plugin.yml`.
+   - Kompatibel penuh dengan server berbasis **Paper, Spigot, dan Folia** versi terbaru tanpa error/warning API deprecation.
+2. **Lightweight (Lebih Ringan)**:
+   - Menghapus modul background telemetry dan tracking **bStats** (`bstats`) untuk menghemat konsumsi RAM dan menjaga kestabilan TPS server.
+3. **Branding & Watermark Cleaned**:
+   - Seluruh teks / kredit branding watermark dari forum luar telah dihapus dan digantikan secara resmi atas nama **AULA WANG**.
+4. **100% Feature Parity**:
+   - Tidak ada fitur, perintah (`commands`), maupun permission yang dihilangkan. Semua fungsi bekerja dengan sempurna.
+
+---
+
+## ⚙️ Installation Guide
+
+1. Download file `.jar` yang diinginkan dari folder [`release/`](release/).
+2. Masukkan file `.jar` tersebut ke dalam folder `plugins/` server Minecraft Anda.
+3. Restart atau reload server Anda.
+4. Nikmati performa server yang lebih ringan dan stabil!
+
+---
+
+## 👥 Author & Maintainer
+
+* **AULA WANG**
+
+---
+*© 2026 AULA WANG. All rights reserved.*
